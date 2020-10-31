@@ -1,0 +1,15 @@
+[Ubuntu Server]
+username : lgucomposteladdo
+password : p@ssw0rd
+
+[Webmin]
+username : lgucomposteladdo
+password : p@ssw0rd
+
+[Portainer]
+User     :  admin
+Password :  p@ssw0rd
+
+[Samba Shared Folder]
+username : lgucomposteladdo
+password : p@ssw0rd
