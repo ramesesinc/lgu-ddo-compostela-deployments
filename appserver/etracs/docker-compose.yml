@@ -4,7 +4,7 @@ services:
 
   etracs-server:
     container_name: etracs-server
-    image: ramesesinc/etracs-server-municipality:2.5.02.07.01
+    image: ramesesinc/etracs-server-municipality:2.5.03.01.01
     restart: always
     logging:
       driver: "json-file"
@@ -27,3 +27,5 @@ services:
       - ../../_custom/datasources:/services/datasources
       - ../../_res/connections:/apps/etracs25/connections/ext
       - ../../_custom/module-server:/apps/etracs25/modules/ext/zzz-lgu-custom-module
+
+      - ../../_custom/fileserver:/fileserver
