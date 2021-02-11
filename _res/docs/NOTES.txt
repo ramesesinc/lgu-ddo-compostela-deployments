@@ -1,30 +1,25 @@
 [app-server]
-IP  : 223.222.100.3
-User: lgunabunturan
+IP  : 
+User: lgucomposteladdo
 Pass: p@ssw0rd
 
 
 [Portainer]
-URL : https://223.222.100.3:9000
+URL : https://SERVER-IP:9000
 User: admin
 Pass: p@ssw0rd
 
 
 [Webmin]
-URL : https://223.222.100.3:10000
-User: lgunabunturan
+URL : https://SERVER-IP:10000
+User: lgucomposteladdo
 Pass: p@ssw0rd
 
 
 [db-server]
-IP  : 223.222.100.2
+IP  : 
 User: etracs
 Pass: p@ssw0rd
-
-
-[db-patches]
-from v2.5.5_20201013_001.upgrade
-to   v255_20210131.patch
 
 
 [docker-images]
